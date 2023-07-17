@@ -80,9 +80,19 @@ itCompanies.forEach(company => {
     }
   });
 
-
+// display the filteredcompanies
   console.log(filteredCompanies);
   
+//sort the array
+  const sortedCompanies = filteredCompanies.sort();
+
+  console.log(sortedCompanies);
+  
+// reverse the array
+
+const reversedArray = filteredCompanies.reverse();
+
+console.log(reversedArray);
 
 
 
