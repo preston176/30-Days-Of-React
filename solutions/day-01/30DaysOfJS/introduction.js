@@ -95,9 +95,44 @@ const reversedArray = filteredCompanies.reverse();
 console.log(reversedArray);
 
 
+//Slice out the first 3 companies from the array
+
+const slice3 = itCompanies.slice(3)
+console.log(slice3);
+
+//Slice out the last 3 companies from the array
+
+const last3 = itCompanies.slice(-3)
+console.log(last3);
 
 
+// slice middle item from the array
+const sliceMiddle = itCompanies.slice(middleCompanyIndex, middleCompanyIndex+1)
+console.log(sliceMiddle);
+
+//Remove the first IT company from the array
+const removeFirst = itCompanies.shift()
+// first element removed
+console.log(removeFirst, [...itCompanies]);
 
 
+//Remove the middle IT company or companies from the array
 
+const removeMiddle = itCompanies.shift(middleCompany)
+
+//Remove the middle IT company or companies from the array
+console.log(removeMiddle , [...itCompanies]);
+
+
+//Remove the last IT company from the array
+const removeLast = itCompanies.pop()
+
+console.log(removeLast, [...itCompanies]);
+
+//Remove all items from the array
+
+// itCompanies.length = 0; OR
+itCompanies.splice(0, itCompanies.length)
+
+console.log("empty array",itCompanies);
 
