@@ -64,11 +64,25 @@ checkCompany('Amazon')
 
 //more than 2 Os
 
-const checkOs = (e) => {}
+const filteredCompanies = [];
 
-console.log(itCompanies.filter());
+itCompanies.forEach(company => {
+    let count = 0;
+    
+    Array.from(company).forEach(letter => {
+      if (letter.toLowerCase() === 'o') {
+        count++;
+      }
+    });
+    
+    if (count > 1) {
+      filteredCompanies.push(company);
+    }
+  });
 
 
+  console.log(filteredCompanies);
+  
 
 
 
