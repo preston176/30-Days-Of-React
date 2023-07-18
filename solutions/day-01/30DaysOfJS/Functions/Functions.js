@@ -35,3 +35,11 @@
 
 // convertCelciusToFahrenheit(20)
 
+// const calcBmi = (weight,height) => {
+//     let bmi = (weight / (height * height))
+//     console.log(bmi);
+//     return bmi;
+    
+// }
+
+// calcBmi(30,5.5)
