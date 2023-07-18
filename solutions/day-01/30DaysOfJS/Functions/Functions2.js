@@ -100,10 +100,22 @@
 // capitalizeArray(array)
 
 
-const addItem = (e) => {
-    const array = []
-    array.push(e)
+// const addItem = (e) => {
+//     const array = []
+//     array.push(e)
+//     console.log(array);
+//     return array
+// }
+// addItem(8)
+const array = [1,4,9,8]
+
+const removeItem = (index) =>{
+    (index === 0) ? array.splice(index,1) : console.log("enter an index");
+    
+    
     console.log(array);
     return array
+    
 }
-addItem(8)
+
+removeItem()
