@@ -14,7 +14,11 @@ const products = [
 //   });
 
 
-products.forEach(element => {
-    console.log(`The price of ${element.product} is ${element.price}`);
+// products.forEach(element => {
+//     console.log(`The price of ${element.product} is ${element.price}`);
 
-});
+// });
+
+// const prices = products.map((product) => product.price);
+// console.log(prices);
+
