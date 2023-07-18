@@ -87,14 +87,23 @@
 // }
 // reverseArray(array)
 
-const array = ['pres', 'john']
+// const array = ['pres', 'john']
 
-const capitalizeArray = (e) => {
-    const capitalized = e.toString().toUpperCase()
-    const capArray = []
-    capArray.push(capitalized)
-    console.log(capArray);
+// const capitalizeArray = (e) => {
+//     const capitalized = e.toString().toUpperCase()
+//     const capArray = []
+//     capArray.push(capitalized)
+//     console.log(capArray);
     
-}
+// }
 
-capitalizeArray(array)
+// capitalizeArray(array)
+
+
+const addItem = (e) => {
+    const array = []
+    array.push(e)
+    console.log(array);
+    return array
+}
+addItem(8)
