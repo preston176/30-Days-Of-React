@@ -23,3 +23,15 @@
 // }
 
 // areaOfCirle(9)
+
+
+// const convertCelciusToFahrenheit = (temp) => {
+//         let faren = (temp * (9/5)) + 32 ;
+//         console.log(faren);
+
+//     return faren;
+        
+// }
+
+// convertCelciusToFahrenheit(20)
+
