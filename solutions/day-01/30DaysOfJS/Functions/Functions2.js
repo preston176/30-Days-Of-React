@@ -107,15 +107,41 @@
 //     return array
 // }
 // addItem(8)
-const array = [1,4,9,8]
+// const array = [1,4,9,8]
 
-const removeItem = (index) =>{
-    (index === 0) ? array.splice(index,1) : console.log("enter an index");
+// const removeItem = (index) =>{
+//     (index === 0) ? array.splice(index,1) : console.log("enter an index");
     
     
-    console.log(array);
-    return array
+//     console.log(array);
+//     return array
     
-}
+// }
 
-removeItem()
+// removeItem()
+
+
+// const evensAndOdds = (num) => {
+//     if (num < 0 || !Number.isInteger(num)) {
+//       return 'Please provide a positive integer.';
+//     }
+  
+//     let evenCount = 0;
+//     let oddCount = 0;
+//     const digits = Array.from(String(num), Number);
+  
+//     for (const digit of digits) {
+//       if (digit % 2 === 0) {
+//         evenCount++;
+//       } else {
+//         oddCount++;
+//       }
+//     }
+//     console.log(oddCount,evenCount);
+    
+  
+//     return `The number of odds are ${oddCount}.\nThe number of evens are ${evenCount}.`;
+//   };
+  
+
+//   evensAndOdds(100)
