@@ -22,14 +22,38 @@
 
 //2Declare a function name printArray. It takes array as a parameter and it prints out each value of the array.
 
-const printArray =(passedArray) => {
-    passedArray.map( (item) => {
-        console.log(item);
-        return item
+// const printArray =(passedArray) => {
+//     passedArray.map( (item) => {
+//         console.log(item);
+//         return item
         
-    })   
+//     })   
+// }
+
+// const array = []
+// array.push(2,3,4,5,6,7,999,619)
+// printArray(array)
+
+// const showDateTime = () => {
+//     let date = new Date().toString()
+//     let splitDate = date.split(" ")
+//     let shortDate = splitDate.splice(1,3)
+//     let toMonth = new Date().getMonth().toString()
+//     let finalDate = shortDate.push(toMonth)
+//     console.log(splitDate, shortDate, toMonth);
+    
+// }
+
+// showDateTime()
+
+const swapValues = (x,y) => {
+    let temp1 = x
+    let temp2 = y
+
+    x = temp2
+    y = temp1
+
+    console.log(`x = ${x}  y = ${y}`);
 }
 
-const array = []
-array.push(2,3,4,5,6,7,999,619)
-printArray(array)
+swapValues(5,4)
