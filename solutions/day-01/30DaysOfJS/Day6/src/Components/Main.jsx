@@ -27,7 +27,7 @@ const newArray = array.map((arr) => {
     }
   
     return (
-      <div key={crypto.randomUUID()} className="number-card" style={{ backgroundColor, padding: '1rem', maxWidth: '100%' }}>
+      <div key={crypto.randomUUID()} className="number-card" style={{ backgroundColor, padding: '1rem', maxWidth: 'fit-content', margin: '0.1rem'}}>
         {arr}
       </div>
     );
