@@ -1,5 +1,7 @@
 // import './App.css'
 
+import ImageComponent from "./Components/ImageComponent"
+
 function App() {
 
   const styles = {
@@ -14,7 +16,8 @@ const inputStyles = {margin:'5px', padding: '2px', height: '20px', outline: 'non
   return (
     <>
       <div style={{display: 'flex', flexDirection: 'column', fontFamily: 'sans-serif'}}>
-        <img src="../images/frontend_technologies.png" alt="frontend-tech" style={styles} />
+        {/* <img src="../images/frontend_technologies.png" alt="frontend-tech" style={styles} /> */}
+        <ImageComponent myStyle = {styles}/>
 
         <div className="Container" style={{display: 'flex', flexDirection: 'column', backgroundColor: 'cyan'}}>
           <div className="wrapper" style={{justifyContent: 'center', textAlign: 'center'}}>

@@ -1,8 +1,10 @@
 import React from 'react'
 
-function ImageComponent() {
+function ImageComponent(props) {
+    console.log(props.myStyle);
+    
   return (
-    <div>ImageComponent</div>
+    <div><img src="../images/frontend_technologies.png" alt="frontend-tech" style={props.myStyle} key={props.id}/></div>
   )
 }
 
