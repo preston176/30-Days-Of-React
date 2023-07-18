@@ -70,20 +70,31 @@
 // }
 
 
-const array = [1,2,3,4,5]
+// const array = [1,2,3,4,5]
 
-console.log(array);
+// console.log(array);
 
-const reverseArray = (e) => {
-    const newArray = [];
-    for (let i = 0; i < e.length; i++) {
+// const reverseArray = (e) => {
+//     const newArray = [];
+//     for (let i = 0; i < e.length; i++) {
         
 
-        newArray.push(e[e.length - 1] - i)
+//         newArray.push(e[e.length - 1] - i)
         
-    }
-    console.log(newArray);
+//     }
+//     console.log(newArray);
+    
+// }
+// reverseArray(array)
+
+const array = ['pres', 'john']
+
+const capitalizeArray = (e) => {
+    const capitalized = e.toString().toUpperCase()
+    const capArray = []
+    capArray.push(capitalized)
+    console.log(capArray);
     
 }
-reverseArray(array)
 
+capitalizeArray(array)
