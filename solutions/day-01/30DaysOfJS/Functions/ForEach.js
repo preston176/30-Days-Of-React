@@ -22,3 +22,6 @@ const products = [
 // const prices = products.map((product) => product.price);
 // console.log(prices);
 
+const filteredProducts = products.filter((product) => product.price > 0.5);
+
+console.log(filteredProducts);
