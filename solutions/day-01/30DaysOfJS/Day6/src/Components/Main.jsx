@@ -1,9 +1,12 @@
+import { array } from "../arrayData";
 export default function Main() {
-const array = []
-for (let i = 1; i <= 31; i++) {
-         array.push(i);
 
-}
+    
+// const array = []
+// for (let i = 1; i <= 31; i++) {
+//          array.push(i);
+
+// }
 const isPrime = (num) => {
     if (num < 2) {
       return false;
