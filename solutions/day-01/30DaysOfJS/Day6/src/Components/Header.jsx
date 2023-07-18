@@ -1,8 +1,9 @@
-import React from 'react'
-
 function Header() {
   return (
-    <div>Header</div>
+    <div style={{textAlign: 'center'}}>
+    <h2>30 Days Of React</h2>
+    <p>Number generator</p>
+    </div>
   )
 }
 
