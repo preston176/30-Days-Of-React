@@ -46,14 +46,44 @@
 
 // showDateTime()
 
-const swapValues = (x,y) => {
-    let temp1 = x
-    let temp2 = y
+// const swapValues = (x,y) => {
+//     let temp1 = x
+//     let temp2 = y
 
-    x = temp2
-    y = temp1
+//     x = temp2
+//     y = temp1
 
-    console.log(`x = ${x}  y = ${y}`);
+//     console.log(`x = ${x}  y = ${y}`);
+// }
+
+// swapValues(5,4)
+
+
+
+// const reverseArray = (e) => {
+
+//     for (let i = 0; i < e.length; i++)
+//     {
+//         e[0]
+//     }
+
+// }
+
+
+const array = [1,2,3,4,5]
+
+console.log(array);
+
+const reverseArray = (e) => {
+    const newArray = [];
+    for (let i = 0; i < e.length; i++) {
+        
+
+        newArray.push(e[e.length - 1] - i)
+        
+    }
+    console.log(newArray);
+    
 }
+reverseArray(array)
 
-swapValues(5,4)
