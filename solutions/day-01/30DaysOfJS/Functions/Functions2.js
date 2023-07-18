@@ -145,3 +145,11 @@
   
 
 //   evensAndOdds(100)
+
+
+// const sumArguments = (...args) => {
+//     return args.reduce((sum, arg) => sum + arg, 0);
+//   };
+
+
+//   sumArguments(4)
