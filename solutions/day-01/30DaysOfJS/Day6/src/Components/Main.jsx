@@ -38,10 +38,17 @@ const newArray = array.map((arr) => {
 
 
   return (
+    <>
     <div className='grid-container'>
-        <div className="numbers-container" style={{display: 'flex', border: "2px solid black", height: 'fit-content', width: 'fit-content', margin: "auto", flexWrap: "wrap", maxWidth: '50%',}}>
+        <div className="numbers-container" style={{display: 'flex', border: "2px solid black", height: 'fit-content', width: 'fit-content', margin: "auto", flexWrap: "wrap", maxWidth: '80%',}}>
         {newArray}
         </div>
     </div>
+    <div className="info-container">
+        <h2>total numbers: {array.length}</h2>
+        {/* <input type="number" />
+        <button onClick={(e) => {e.target.value}}>Submit</button> */}
+    </div>
+    </>
   )
 }
