@@ -7,8 +7,14 @@ const products = [
     { product: 'tea', price: '' },
   ]
 
-  products.forEach(element => {
-    console.log(element.price);
+//   products.forEach(element => {
+//     console.log(element.price);
     
     
-  });
+//   });
+
+
+products.forEach(element => {
+    console.log(`The price of ${element.product} is ${element.price}`);
+
+});
