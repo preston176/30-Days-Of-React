@@ -1,0 +1,11 @@
+.cards-container {
+    padding: 5%;
+  }
+  
+.cards-wrapper {
+  border: 1px solid black;
+  width: fit-content;
+  padding: 10%;
+}
+
+
