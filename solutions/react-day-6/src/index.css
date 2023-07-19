@@ -1,0 +1,15 @@
+* {
+  font-family: poppins, sans-serif;
+}
+.data-container {
+  text-align: center;
+  width: 80%;
+  padding: rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+progress::-webkit-progress-value {
+  background-color: orange;
+}
