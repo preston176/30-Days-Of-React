@@ -1,4 +1,4 @@
-
+import React from 'react'
 import { useState } from 'react'
 import './App.css'
 import Cards from './Components/Cards';
@@ -21,7 +21,7 @@ function onClicked () {
       }}
     >
     
-    <button onClick={onClicked} style={{transform: "scale(1.1)", margin: "auto"}}>Dark Mode 😒</button>
+    <button onClick={onClicked} style={{transform: "scale(1.1)", position: "absolute", left: "1.1rem"}}>Dark Mode 😒</button>
     <Cards whichMode={darkMode} />
     </div>
   )
