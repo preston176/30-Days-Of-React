@@ -18,18 +18,25 @@ const countriesArray = [{
 
 
 
-console.log(countriesArray[0]);
+// console.log(countriesArray.length);
 
 
 
 function CountrySelector() {
 
-const [countryState ,SetCountryState] = useState(0);
+const [countryState ,SetCountryState] = useState(Math.floor(Math.random() * countriesArray.length));
 
 const displayCountry = countriesArray[countryState]
 
 
-console.log(displayCountry.Name);
+// console.log(displayCountry.Name);
+
+function doRandom() {
+    let randomNum = Math.floor(Math.random() * countriesArray.length)
+    SetCountryState(randomNum)
+    return randomNum
+}
+
     
   return (
     <div>
@@ -48,7 +55,7 @@ console.log(displayCountry.Name);
     </div>
 
 
-    <button>Select country</button>
+    <button onClick={doRandom}>Select country</button>
     </div>
   )
 }
