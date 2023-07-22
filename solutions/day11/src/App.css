@@ -1,0 +1,14 @@
+.btn {
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: default;
+  padding: 10px 20px;
+  /* pointer-events: none; */
+  user-select: none;
+}
+
+.container {
+  padding: 90px;
+  width: fit-content;
+}
