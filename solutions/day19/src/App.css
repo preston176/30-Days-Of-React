@@ -1,7 +1,8 @@
-.firstContainer {
-  background-color: red;
+* {
+  font-family: poppins, sans-serif;
+  font-weight: 800;
+  border-radius: 1rem;
 }
-
 .cats {
   min-height: 50vh;
   background-color: #31be06;
