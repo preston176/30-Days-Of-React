@@ -1,9 +1,32 @@
-* {
-  font-family: poppins, sans-serif;
-  font-weight: 800;
-  border-radius: 1rem;
-}
-.cats {
+.container1 {
+  display: flex;
+  flex-direction: column;
   min-height: 50vh;
-  background-color: #31be06;
+  background-color: rgb(1, 168, 62);
+  padding: 2rem;
+}
+.card__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background-color: rgb(217, 214, 214);
+  min-height: 5rem;
+}
+
+.card {
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  padding: 4rem;
+}
+
+.selctions {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem 0 2rem 0;
+  gap: 2rem;
+}
+
+.select {
+  background-color: rgb(10, 197, 230);
 }
