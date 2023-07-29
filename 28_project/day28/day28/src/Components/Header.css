@@ -1,0 +1,21 @@
+.header {
+  background-color: slategray;
+  height: 10vh;
+}
+
+.header form input {
+  margin: 20px;
+  height: 40px;
+  outline: none;
+  border: none;
+}
+
+.header form button {
+  padding: 12px;
+}
+
+.submit__btn {
+  cursor: pointer;
+  outline: none;
+  border: none;
+}

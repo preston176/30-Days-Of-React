@@ -1,0 +1,13 @@
+.body__section {
+  min-height: 88vh;
+  background-color: lightgray;
+}
+
+.tweets__Container {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  display: flex;
+  min-width: 50%;
+  margin: auto;
+  justify-content: center;
+}

@@ -1,0 +1,5 @@
+.tweet__Card {
+  border: 1px solid black;
+  width: 500px;
+  flex-direction: column;
+}

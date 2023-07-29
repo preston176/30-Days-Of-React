@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "user": "i am the user",
+      "tweet": "this is my tweet"
+    },
+    {
+      "user": "james",
+      "tweet": "ia m here",
+      "id": 2
+    }
+  ]
+}
